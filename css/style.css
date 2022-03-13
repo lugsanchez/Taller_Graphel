@@ -1,0 +1,342 @@
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+}
+
+header{
+    display: flex;
+    background-color: #24282B;
+    justify-content: space-between;
+    padding: 0px 200px 0px 200px;
+    border-bottom: 4px solid #14A1D9;
+}
+span{
+    color: #14A1D9;
+}
+h1{
+    color: white;
+}
+
+nav ul li a{
+    text-decoration: none;   
+    color: white; 
+}
+nav ul li a:hover{
+    color: #14A1D9;
+}
+nav ul li{
+    display: inline;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    padding: 13px;
+}
+
+.cuadroImagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../images/cabecera.jpg) 0 -417px;
+    text-align: center;
+    height: 450px;
+    background-size: cover;
+    width: 2000px;
+}
+.textoEnImagen {
+    font-size: 70px;
+    margin-top: -53px;
+}
+.parrafoEnImagen {
+    font-size: 13px;
+    color: white;
+    padding: 0px 100px 0px;
+    margin-top: -57px;
+}
+
+.Cabecera{
+    display: flex;
+}
+
+
+.campoSuscribete{
+    display: flex;
+    background-color: #24282B;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 200px 0px 200px;
+    height: 90px;
+}
+.TextoSuscribete{
+    color: white;
+}
+
+input#email{
+    width: 250px;
+    padding: 8px;
+}
+
+button{
+    background-color: #E8491D;
+    border: none;
+    color: white;
+    padding: 11px;
+}
+
+button:hover{
+    background-color: #14A1D9;
+}
+
+.campoProgramas{
+    display: flex;
+    justify-content: center;
+    width: 1800px;
+    text-align: center;
+}
+
+.cuadro{
+    width: 400px;
+    padding: 30px;
+}
+
+.imagenProgramas{
+    width: 100px;
+}
+
+footer{
+    background-color: #14A1D9;
+    color: white;
+    height: 40px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.Texto{
+    color: black;
+}
+
+
+.primerCampoTexto{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.segundoCampoTexto{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+     background-color: #35424A;
+    width: 400px;
+    height: 250px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.cuadroTextoPrimero{
+    background-color: #35424A;
+    width: 400px;
+    height: 250px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.parrafoDerecha{
+color: white;
+}
+
+.imagenMapa{
+    width: 420px;
+}
+
+.CampoTextos{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    height:700px;
+}
+
+.CampoTextosNosotros{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    height:689px;
+}
+.primerParrafo{
+    width: 880px;
+    font-size: 20px;
+    text-align: justify;
+}
+.segundoParrafo{
+    background-color: #35424A;
+    color: white;
+    width: 880px;
+    font-size: 20px;
+    padding: 10px;
+    text-align: justify;
+}
+.img891{
+    width: 900px;
+}
+
+.cuadroDeTextos{
+    background-color: #E6E6E6;
+    border: 1px solid #cccccc;
+    width: 880px;
+    padding: 13px;
+    height: 173px;
+    text-align: justify;
+}
+
+.CampoTextosNosotros{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.campoMapa{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+input#nombre{
+width: 900px;
+height: 40px;
+}
+input#correo{
+    width: 900px;
+    height: 40px;
+}
+input#telefono{
+    width: 900px;
+    height: 40px;
+}
+input#celular{
+    width: 900px;
+    height: 40px;
+}
+textarea{
+    width: 900px;
+    height: 130px;
+}
+
+.botonContacto{
+    width: 890px;
+    height: 40px;
+    background-color: #E8491D;
+    color: white;
+    border: none;
+}
+
+.botonContacto:hover{
+
+    background-color: #14A1D9;
+     
+} 
+
+section{
+    background-color: #F4F4F4;
+}
+
+@media(max-width:1400px){
+
+    .campoProgramas {
+        width: 1344px;
+    }
+
+    .cuadroImagen {
+        background: url(../images/cabecera.jpg) 0 -341px;
+    }
+
+    .primerParrafo {
+        width: 800px;
+        font-size: 17px;
+    }
+
+    .segundoCampoTexto {
+        width: 300px;
+        height: 220px;
+        padding: 10px;
+        margin-left: 230px;
+    }
+
+    .parrafoDerecha {
+        font-size: 17px;
+    }
+
+    .Texto {
+        font-size: 19px;
+    }
+
+    .tituloDerecha{
+        font-size: 19px;
+
+    }
+
+    .segundoParrafo {
+        width: 800px;
+        font-size: 17px;
+    }
+
+    .img891 {
+        width: 822px;
+        height: 244px;
+    }
+
+    .cuadroDeTextos {
+        width: 790px;
+    }
+
+    .cuadroTextoPrimero {
+        width: 300px;
+        height: 220px;
+        padding: 10px;
+        margin-left: 230px;
+    }
+
+    .imagenMapa {
+        width: 300px;
+        height: 281px;
+        margin-left: 230px;
+        margin-top: -162px;
+    }
+
+    input#nombre {
+        width: 800px;
+        height: 40px;
+    }
+
+    input#correo {
+        width: 800px;
+        height: 40px;
+    }
+
+    input#telefono {
+        width: 800px;
+        height: 40px;
+    }
+
+    input#celular {
+        width: 800px;
+        height: 40px;
+    }
+
+    textarea {
+        width: 800px;
+        height: 130px;
+    }
+
+    .botonContacto {
+        width: 800px;
+        height: 40px;
+    }
+ 
+
+
+}
