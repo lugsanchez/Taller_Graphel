@@ -1,5 +1,4 @@
 
-
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0%;
@@ -37,7 +36,7 @@ nav ul{
     padding: 13px;
 }
 
-.cuadroImagen{
+.imagenCabecera{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,7 +63,7 @@ nav ul{
 }
 
 
-.campoSuscribete{
+.cajonSubscribete{
     display: flex;
     background-color: #24282B;
     justify-content: space-between;
@@ -337,6 +336,48 @@ section{
         height: 40px;
     }
  
-
-
 }
+
+@media (max-width:500px) {
+    body{
+        width: 100%;
+    }
+
+    header{
+        padding: 0;
+        flex-direction: column;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    nav ul{
+        padding: 0;
+        justify-content: space-evenly;
+    }
+
+    .textoEnImagen{
+        margin-top: 0;
+    }
+
+    .parrafoEnImagen{
+        padding-top: 30px;
+    }
+
+    .campoSuscribete{
+        padding: 0 0 30px 0;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .campoProgramas{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .cuadro{
+        box-sizing: border-box;
+        width: 100%;
+    }
+} 
